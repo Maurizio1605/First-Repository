@@ -33,8 +33,18 @@ Met HTML en CSS kan je aanpassingen aanbrengen op je webpagina met een code edit
 ![alt text](img/image.png)
 ![alt text](img/image-1.png)
 
+## 4 sept - Deepdives
 
+### Typografie (Diederik)
+- Ik kon niet bij deze dag zijn dus heb thuis het huiswerk en de opdrachten gedaan.
 
+![alt text](img/image-2.png)
+![alt text](img/image-3.png)
 
+### chetsen van o.a. interactie en animatie (Charley)
+- Ook voor de schets deep dive heb ik de oefeningen gemaakt.
 
+![alt text](img/image-4.png)
+![alt text](img/image-5.png)
+![alt text](img/image-6.png)
 
