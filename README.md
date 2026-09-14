@@ -122,6 +122,7 @@ Een lach of een gefocust gezicht kan doorzettingsvermogen uitbeelden. Sporten ga
 
 ### Opdracht 7:
 De gevonden posters vind ik heel goed bij mijn onderwerp en woorden passen. Ze zijn robuust, energiek, maar ook soms vloeiend. De kleuren zijn ook heel passend voor sport of discipline, denk aan zwart en wit.
+![alt text](img/image-11.png)
 
 ### Opdracht 8
 ![alt text](img/image-8.png)
@@ -141,3 +142,48 @@ Mijn garden gaat over sport. Dit ga ik doen met beeld en tekst.
 
 ### Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder zou willen onderzoeken
 Dat is nog even uitzoeken. visualisaties vind ik wel leuk en passend dus ga daar zeker verder mee experimenteren.
+
+## 11 sept
+
+### Opdracht 12:
+### Voortgangsgesprek
+Met Nicky in de les in een groepje elkaars onderwerp besproken en bekeken. Wat we van plan zijn en hoe we dit willen realiseren, doormiddel van de schetsen en visual research. Mijn feedback was:
+- Waarmee beginnen? > homepagina/intropagina 
+- Quote beginnen met content die je hebt heel sterk
+- Bewegende letters uitdagend en interessant
+- Content boven en onder gaaf
+- Visualisaties gaaf
+- Bedenk je quote
+
+**Brainstorm quotes:**
+- Everyday is a chance to be better
+- dreams have no limits
+- push through and you wil get it
+- imagine your potential if you gave it all
+- build you strength 
+- discipline beats motivation
+- the older version of you will be gratefull
+- best time was yesterday, second best time is now
+- invest in your future
+- make it happen
+- consistency is all it takes
+- be the best version of yourself
+- make your younger self proud
+- make the child in you proud
+- doing is better than not doing
+- the only limit is you
+- just show up
+- progress takes time
+
+**Feedback Charley:**
+- wat roept de geassocieerde emotie(s) bij de posters op? waarom zijn sommige kleuren bijvoorbeeld emotieloos of hoe maakt het de poster motiverend/bewegend?
+- gebruik en herken dit zodat je het kan toepassen in je eigen ontwerp
+- gebruik de deepdives om de theorie en opdrachten toe te passen die aansluiten bij je quotes
+
+Dit hebben we verolgens besproken dat er meer te associëren is met de posters en wat de redenen zijn waarom ze die bepaalde gevoelens en/of opvattingen opwekken.
+
+Bijvoorbeeld dat er vooral gebruik wordt gemaakt van capitale letters, een duidelijk contrast (wit-zwart/geel-zwart), gecentreerde tekst, grote tekst, dikke tekst. Maar ook schuine tekst dat perspectief creëert en letters die buiten de poster vallen die ook weer beweging nabootsen. Het herkennen van deze ontwerptechnieken maken het gemakkelijker om dit toe te passen voor eigen ideëen en ontwerpen die horen bij mijn onderwerp.
+
+### Checkout:
+### Welkke feedback heb je gehad?
+Ik heb verschillende feedback gehad. Van Nicky over mijn ontwerp en ideëen over mijn onderwerp, zoals wat ik kan doen met sport en hoe ik dit het beste kan aanpakken. En met Charley over de opvattingen en denkwijze van mijn visual research, zodat ik deze manieren het beste kan toepassen en gebruiken voor mijn eigen ontwerp.
