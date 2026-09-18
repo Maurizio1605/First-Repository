@@ -224,3 +224,48 @@ Door de main een max-width te geven.
 
 ### Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
 Door alles goed te verdelen in html-tags, dus headers verdelen in h1, h2, etc.
+
+## ma 14 spet - vr 18 sept
+In deze periode heb ik mij gericht op het afmaken van mijn digital garden. Aan de hand van mijn schetsen en kleuren palatte heb ik deze samengesteld. Ik heb de schetsen opgesteld van mijn homepagina en ben hiermee als eerste begonnen. 
+
+![alt text](img/image-14.jpg)
+
+Zoals ik eerder had besproken wilde ik per onderwerp een aparte pagina. Deze heb ik gezet in de navbar en in tegels met css-grid onderaan de homepagina als extra navigatie. De quote staat mooi centraal en opvallend als introductie, gevolgd met een korte intro. Als quote heb ik 'Progress takes time', want vond dit wel een pakkende quote. Daarnaast kan een tuintje ook groeien, dus vind dat ook heel passend. Dit waren de quotes die ik had gebrainstormd: 
+- Everyday is a chance to be better
+- dreams have no limits
+- push through and you wil get it
+- imagine your potential if you gave it all
+- build you strength 
+- discipline beats motivation
+- the older version of you will be gratefull
+- best time was yesterday, second best time is now
+- invest in your future
+- make it happen
+- consistency is all it takes
+- be the best version of yourself
+- make your younger self proud
+- make the child in you proud
+- doing is better than not doing
+- the only limit is you
+- just show up
+- progress takes time
+
+![alt text](img/image-15.png)
+
+Vervolgens kan je beginnen bij de 'start' pagina, hierin geef ik een uitleg en deel ik mijn ervaring en kennis. Dan wordt je doorverwezen naar de volgende 'training', 'voeding' en 'over mij' pagina met dezelfde principe inhoud. Ook staat er een bij iedere pagina een knop waarbij je een bijhorend artikel opent.
+
+![alt text](img/image-16.png)
+![alt text](img/image-17.png)
+
+Het is me gelukt om de website helemaal te realiseren, alleen niet om hem responsive te maken/houden. Op telefoons werkt hij dus nog niet helemaal naar wens, maar op de pc versie gelukkig wel. Dat is dus ook misschien de volgende stap om hem ook helemaal goed te maken voor mobile. Het advies was om mobile-first te beginnen, maar heb dit voorheen nooit zo gedaan bij mijn oudere projecten en ben daarom dus begonnen met pc versie, omdat dit mij makkelijker afging. Ik had namelijk ook enige kennis met html en css. Zoals je kan zien heb ik voor elke pagina dezelfde styling aangehouden om de website zo consistent mogelijk te houden.
+
+![alt text](img/image-18.png)
+![alt text](img/image-19.png)
+![alt text](img/image-20.png)
+![alt text](img/image-21.png)
+![alt text](img/image-22.png)
+![alt text](img/image-23.png)
+![alt text](img/image-24.png)
+![alt text](img/image-25.png)
+
+Uiteindelijk kostte het me meer tijd dan gedacht, maar ben wel heel tevreden met het eindresultaat. Dit omdat alles erin zit wat ik wilde dat erin zou moeten zitten en had ook veel plezier in het maken en schrijven van mijn garden. Ik heb het simpel proberen te houden maar tegelijkertijd ook mezelf uitgedaagd merkte ik, want heb veel nieuwe dingen geleerd. Zoals bijvoorbeeld van de deepdives interactie, schetsen, kleurgebruik en de basis van fonts, want voorheen deed ik dit blijkbaar verkeerd zonder @font-face.  
