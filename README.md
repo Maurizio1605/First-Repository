@@ -187,3 +187,40 @@ Bijvoorbeeld dat er vooral gebruik wordt gemaakt van capitale letters, een duide
 ### Checkout:
 ### Welkke feedback heb je gehad?
 Ik heb verschillende feedback gehad. Van Nicky over mijn ontwerp en ideëen over mijn onderwerp, zoals wat ik kan doen met sport en hoe ik dit het beste kan aanpakken. En met Charley over de opvattingen en denkwijze van mijn visual research, zodat ik deze manieren het beste kan toepassen en gebruiken voor mijn eigen ontwerp.
+
+## ma 14 sept
+
+### Bi-weekly geek
+Als voorbereiding heb ik de artikelen bekeken en gelezen. Het filmpje ging vooral over hoe het internet werkt als geheel over de hele wereld. Wat er nodig is voor het verzenden en ontvangen van berichtjes en dat dit allemaal wordt opgeslagen in gigantische data centers. De artikelen gingen over specifiekere gedeeltes van het internet, namelijk wat gebeurt er als grote tech bedrijven de macht hebben over (onze) data en Tim Berners-Lee zijn kijk over het world wide web als bedenker zijnde. In de les hebben we deelvragen opgesteld in groepjes en van een andere groep de onderzoeksmethodes aan gekoppeld.
+
+### Color palatte en font-family
+Ik wil verder met het realiseren van mijn tuintje. Het leek mij daarbij passend om een color palatte en font-fmaily uit te zoeken die bij mij en mijn tuintje past. Ik ben op zoek naar kleuren die minimalistisch zijn en kleuren die passen bij sport/krachttraining. Om deze kleuren te vinden kijk ik nog eens naar mijn visual research wat daarin opvalt ter inspiratie. Kleuren die bij dit onderwerp passen doen mij denken aan:
+
+- minimalisme
+- kracht
+- sportiviteit
+- discipline
+- motivatie
+- zelfontwikkeling
+
+Wat mij opvalt uit mijn eerdere visual research is dat kleuren die horen bij motivatie en sport heel strakke en simpele kleuren zijn, dus niet te druk en niet teveel. Vooral tinten van wit, grijs en zwart en dat samen met een vaste kleur, zoals groen, rood, blauw, geel, etc. Color palattes die hierbij aansluiten die ik heb gevonden zijn:
+
+![alt text](img/image-12.png)
+
+Wat ik mooi vind aan deze palattes is dat ze mooi samenkomen en vooral ook een sterke contrast hebben wat belangrijk is, want dat kwam naar voren uit mijn visual research. Ik heb verschillende palletes gevonden die met elkaar te maken hebben. Elke palatte bevat een vorm van wit en zwart en met verschillende aparte kleuren. Groen staat vooral voor positiviteit en groei, maar ben zelf niet zo'n grote fan van een fel groene kleur. Deze kleur geeft me ook eerder een associatie met tennis, gezien dezelfde kleur groen als bij een tennisbal. Rood en paars kunnen daarnaast staan voor kracht/discipline en geel vind ik echt een energieke scherpe kleur.  
+
+De kleuren van mijn tuintje moeten ook weer niet te explosief zijn, omdat dit anders geassocieerd kan worden met actievere sport, zoals hardlopen wat je ook vaak ziet terugkomen in hun kleding. Mensen die liften dragen simpelere kleding in de sportschool en dat kan je ook terug zien aan de afbeeldingen uit mijn visualresearch. De tweede palatte heeft hierin vind ik de beste balans, dus zal ik deze gebruiken.
+
+Voor de lettertype zoek ik een robuuste, goede captiale en schreefloze lettertype. Maar lijkt het mij ook leuk om een tweede lettertype te gebruiken die een beetje techy/webby/sportief is om wat meer personaliteit in de website te brengen. Daarvoor gebruik ik 'Chamfer Gothic Ludlow' en als standaard tekst vond ik de tweede lettertype 'Barlow' daar mooi bij passen. Helaas kon ik uit adobe fonts niet de fonts downloaden, Barlow stond gelukkig wel op Google Fonts om te downloaden maar chamfer niet, dus heb Big Shoulders Stencil als vervanger.
+![alt text](img/image-13.png)
+
+
+## Checkout
+### Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+Door responsivness toe te voegen en dat alles goed is uitgelijnd op alle scherm formaten, zodat je website goed leesbaar blijft. Verschillende letter grootte en plaatjes, dus niet te groot en niet te klein zorg dat het goed leesbaar is met duidelijke hiërarchie.
+
+### Vertel welke volgende stap je neemt om je website responsive te maken.
+Door de main een max-width te geven.
+
+### Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
+Door alles goed te verdelen in html-tags, dus headers verdelen in h1, h2, etc.

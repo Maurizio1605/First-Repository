@@ -1,14 +1,278 @@
-/* HIER KOMT JOUW CSS */
 @font-face {
-  font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
+  font-family: "Barlow";
+  src: url(../type/BarlowCondensed-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
-body {
-  font-family: "Comic Relief", system-ui;
-  background-color: Canvas;
-  color: CanvasText;
-  color-scheme: light dark;
+@font-face {
+  font-family: "BigShouldersStencil";
+  src: url(../type/BigShouldersStencil-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
 }
+
+:root {
+    --midnight-slate: #40494E;
+    --white: #FFFFFF;
+    --silver-mist: #D9D9D6;
+    --thunder-lime: #E5E22C;
+    --black: #000000;
+    --deep-slate: #30383C;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", system-ui;
+  background-color: var(--midnight-slate);
+  color: var(--white);
+}
+
+header {
+  padding: 25px 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "BigShouldersStencil";
+  font-size: 32px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--thunder-lime);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+nav a.active {
+  color: var(--thunder-lime);
+}
+
+.quote {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym.jpg");
+}
+
+.quote h1 {
+  font-family: "BigShouldersStencil";
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.logo span, .quote span {
+  color: var(--thunder-lime);
+}
+
+#logo {
+  text-decoration: none;
+}
+
+.intro {
+  padding: 10px 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-label {
+  color: var(--thunder-lime);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.intro-text {
+  color: var(--silver-mist);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto 25px;
+}
+
+#start-button {
+  font-family: "Barlow";
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: var(--thunder-lime);
+  color: var(--black);
+  padding: 0.75em 1em;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#start-button:hover {
+  background-color: #c9c62a;
+  color: var(--white);
+}
+
+.topics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 30px;
+}
+
+.topic {
+  color: var(--white);
+  padding: 30px;
+  min-height: 250px;
+  background-color: var(--deep-slate);
+}
+
+.topic h2 {
+  font-family: "BigShouldersStencil";
+  font-size: 3rem;
+  margin: 10px 0 10px;
+}
+
+.topic p {
+  color: var(--silver-mist);
+  line-height: 1.5;
+}
+
+.topic a {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--thunder-lime);
+  font-weight: bold;
+}
+
+
+
+.start-quote {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym2.jpg");
+}
+
+.start-quote h1 {
+  font-family: "BigShouldersStencil";
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.start-text {
+  color: var(--silver-mist);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.training-quote {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym3.jpg");
+}
+
+.training-quote h1 {
+  font-family: "BigShouldersStencil";
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.voeding-quote {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym4.jpg");
+}
+
+.voeding-quote h1 {
+  font-family: "BigShouldersStencil";
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.progressie-quote {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym5.jpg");
+}
+
+.progressie-quote h1 {
+  font-family: "BigShouldersStencil";
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.overmij-quote {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym6.jpg");
+}
+
+.overmij-quote h1 {
+  font-family: "BigShouldersStencil";
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+}
+
+
+
+
+
+
+main {
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
