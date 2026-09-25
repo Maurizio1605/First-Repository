@@ -44,8 +44,10 @@ Met HTML en CSS kan je aanpassingen aanbrengen op je webpagina met een code edit
 ### chetsen van o.a. interactie en animatie (Charley)
 - Ook voor de schets deep dive heb ik de oefeningen gemaakt.
 
-![alt text](img/image-4.png)
-![alt text](img/image-5.png)
+<img src="img/image-4.png" style="transform: rotate(270deg);">
+
+<img src="img/image-5.png" style="transform: rotate(270deg);">
+
 ![alt text](img/image-6.png)
 
 ## 7 sept - verkenning
@@ -126,12 +128,15 @@ De gevonden posters vind ik heel goed bij mijn onderwerp en woorden passen. Ze z
 
 ### Opdracht 8
 ![alt text](img/image-8.png)
+In deze opdracht heb ik per poster geannalyseerd en beschreven wat opvalt uit deze posters en wat ik mee kan nemen ter inspiratie voor mijn ontwerp.
 
 ### Opdracht 9
-![alt text](img/image-9.png)
+<img src="img/image-9.png" style="transform: rotate(270deg);">
+Deze opdracht heb ik de crazy 8 brainstorm techniek toegepast. Ik heb 8 zo snel mogelijke schetsen/elementen die in me opkwamen op papier gezet. Zoals strepen, vloeiende beweging, layout, gewichten, etc.
 
 ### Opdracht 11
-![alt text](img/image-10.png)
+<img src="img/image-10.png" style="transform: rotate(270deg);">
+Op basis van de eerdere opdracht heb ik nu wireframes gemaakt voor mijn garden. Ik dacht zelf aan een makkelijk te volgen en lezen layout, dus beginnend met een kop, daarna een afbeelding en tekst. Zelf vind ik zo'n ingedeelde pagina prettig om te lezen, omdat er een goede hiërarchie in zit. Daarom pas ik dat ook voor mijn ontwerp toe.
 
 ### Checkout:
 ### Leg uit waar het Visual Research in 3 stappen naartoe werkt
@@ -268,4 +273,90 @@ Het is me gelukt om de website helemaal te realiseren, alleen niet om hem respon
 ![alt text](img/image-24.png)
 ![alt text](img/image-25.png)
 
-Uiteindelijk kostte het me meer tijd dan gedacht, maar ben wel heel tevreden met het eindresultaat. Dit omdat alles erin zit wat ik wilde dat erin zou moeten zitten en had ook veel plezier in het maken en schrijven van mijn garden. Ik heb het simpel proberen te houden maar tegelijkertijd ook mezelf uitgedaagd merkte ik, want heb veel nieuwe dingen geleerd. Zoals bijvoorbeeld van de deepdives interactie, schetsen, kleurgebruik en de basis van fonts, want voorheen deed ik dit blijkbaar verkeerd zonder @font-face.  
+Uiteindelijk kostte het me meer tijd dan gedacht, maar ben wel heel tevreden met het eindresultaat. Dit omdat alles erin zit wat ik wilde dat erin zou moeten zitten en had ook veel plezier in het maken en schrijven van mijn garden. Ik heb het simpel proberen te houden maar tegelijkertijd ook mezelf uitgedaagd merkte ik, want heb veel nieuwe dingen geleerd. Zoals bijvoorbeeld van de deepdives interactie, schetsen, kleurgebruik en de basis van fonts, want voorheen deed ik dit blijkbaar verkeerd zonder @font-face.
+
+### Feedback/voortgangsgesprek sprint 1:
+Met Charley gesprek gehad over mijn voortgang in deze eerste sprint. Feedback die ik heb gekregen:
+- Afbeeldingen in de learning log aanvullen en rechtzetten.
+- Meer uithalen uit de visual research en dat kunnen onderbouwen naar mijn eigen ontwerp.
+- Meer verbeeldingen toepassen in eigen ontwerp en mijn ontwerp daarmee unieker maken.
+- Light-dark theme toepassen.
+- Responsive maken voor telefoon.
+- Meer aanwezigheid.
+- Bronnen vermelden.
+- Tip: functie voor de kleur als naam, niet de naamkleur als naam gebruiken.
+
+retro:
+![alt text](20260925_152541.jpg)
+![alt text](20260925_152549.jpg)
+- Begin motivatie
+- Gedrurende tijd minder
+- Later beter
+
+Werk en privé nemen meer tijd dan voorspeld. Daarnaast zit ik ook in een verbouwing wat afleid en druk is.
+
+Onderzoeken kan ik al redelijk goed, dat was vorig jaar ook een compliment van een docent. Schetsen vind ik leuk alleen moet ik nu bepaalde onderzoek beter betrekken.
+![alt text](20260925_152559.jpg)
+De eerste stappen
+
+Slak:
+- Niet altijd even snel
+- Motivatie
+
+Uitdagingen: 
+- Techniek kan saai en lastg zijn
+- Opstarten van het jaar
+
+De weg: 
+- Nieuw begin
+- Positief vooruitzicht
+
+Klok: 
+- Tijd gaat snel
+- Planning bijhouden
+
+### Checkout
+![alt text](img/image-27.png)
+![alt text](img/image-28.png)
+![alt text](img/image-29.png)
+![alt text](img/image-30.png)
+![alt text](img/image-31.png)
+
+## ma 21 sept
+Vandaag hebben we in de les de digital gardens van mede-studenten bekeken en een start gemaakt met onze websites te laten voldoen aan de wet. Vasillis heeft uitleg gegeven over wat HTML is en we hebben live code van Justus gevolgd over standaard HTML en CSS opmaak. Daarna zijn we aan de slag geweest in duo's aan de opdracht waarin je cookies van verschillende websites annalyseerd.
+
+![alt text](img/image-32.jpg)
+
+### Checkout 
+### Wat zijn HTML landmark role elements?
+Niet voorbij horen komen in de les. Na het opgezocht te hebben is het een soort screen-reader waarin je met je toetsenbord de website kan navigeren. Door gebruik te maken van de juiste HTML elements.
+
+### Wat zijn heading elementen en hoe horen deze 'genest' te worden?
+In de head van je html zet je je meta tags. Dit zijn belangrijke informatie voor je website, je titel komt hierin ook bijvoorbeeld voor. Elke aparte element krijgt een inspringing/nest.
+
+### Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.
+
+Ik ga best soepel met cookies om en lette er voorheen nooit op en wist nooit wat ze betekende. Nu weet ik wat het doet maar is mijn mening niet echt veranderd. Ik vind het altijd prima dus accepteer het
+
+## wo 23 sept
+Ik heb wireframes en wireflows gemaakt voor mijn cookie pop-up. Uit de analyses van maandag viel mij op dat er veel verschillende soorten pop-ups zijn. 
+![alt text](img/image-33.jpg)
+Bij de eerste afbeelding heb ik wireframes gamaakt voor laptop/pc. Ik heb gekozen voor een pop-up in de onderhoek van de pagina, zodat mijn pagina nog wel zichtbaar blijft. In plaats van de hele pagina op te vullen en de bezoeker geen andere keus te geven dan om eerst te accepteren/weigeren om verder te kunnen. Ik vind dit zelf erg opdringerig daarom heb ik daar expres niet voor gekozen en de pop-up op deze manier ontworpen. Daarnaast vind ik duidelijkheid heel belangrijk, de kop 'wij hechten waarde aan uw privacy' vertelt vind ik meer dan een kop zoals 'wij gebruiken cookies'. Veel mensen weten namelijk niet wat cookies is en door dit beter te omschrijven wel. Ik heb het zo duidelijk en simpel mogelijk proberen te houden, dus de gebruiker kan de pop-up vergroten en vervolgens meer informatie lezen en zijn voorkeuren aanpassen en toepassen.
+![alt text](img/image-34.jpg)
+Voor de mobile wireframes heb ik precies dezelfde lay-out en principes gebruikt, maar dan in een ander schermformaat.
+
+## Opdracht dark pattern
+Als dark pattern heb ik gekozen voor alogritmes die oneindig scrollen veroorzaken. Als voorbeeld gebruik ik tiktok, maar dit kan ook instagram zijn of andere platformen/websites. Tiktok is net wat verslavender en ik zal doorlopen waarom.
+
+Wat bij deze algoritmes vaak het probleem is en wat ik zelf ook altijd herken en ervaar, is dat je geen rekening meer houdt met de tijd. Dit komt omdat je wordt als het ware 'opgelokt' in oneindig veel content, omdat het zo makkelijk is gemaakt om van één video naar de volgende te gaan en de video's die je te zien krijgt zijn vaak gelinkt aan je interesses. Hierdoor wordt je aandacht vastgehouden en raak je snel langdurig afgeleid, omdat je continu geprikkeld wordt. Hoe dit in zijn werking gaat heb ik in wireframes uitgeschets in de bovenste rij.
+
+![alt text](img/image-35.jpg)
+
+Wat ook bijvoorbeeld wordt gedaan is dat je per direct nadat je de app opent gelijk content krijgt te zien en dus afgeleid raakt. Soms open ik tiktok met een doel om iets op te zoeken, maar raak ik gelijk afgeleid door de video die direct aan me wordt voorgesteld. Vervolgens scrol ik verder en ben ik allang vergeten wat ik ookal weer wilde doen en is er 30 minuten voorbij gegaan. 
+
+Daarom heb ik bedacht om een start pagina toe te voegen, zodat je niet gelijk wordt afgeleid, maar overzichtelijk kan klikken waarvoor je de app opent. Bijvoorbeeld alleen om naar je profiel te gaan, berichten van vrienden of specifieke video's.
+
+Vervolgens krijg je de content te zien, maar om het dus minder makkelijk te maken om door zoveel mogelijk content te gaan, heb ik het moeilijker proberen te maken. Dit zodat je je meer bewust bent van wat je aan het doen bent en hoeveel tijd er is verstreken. Na elke video krijg je dan te zien wat je hebt bekenen, hoeveel video's, hoeveel seconden/minuten/uren je hebt bekeken en met de optie of je verder wilt. Als je hiermee na elke video wordt geconfronteerd ben je je hopelijk ook meer bewust van het scrollen.
+
+
+
