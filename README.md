@@ -287,8 +287,8 @@ Met Charley gesprek gehad over mijn voortgang in deze eerste sprint. Feedback di
 - Tip: functie voor de kleur als naam, niet de naamkleur als naam gebruiken.
 
 retro:
-![alt text](20260925_152541.jpg)
-![alt text](20260925_152549.jpg)
+![alt text](img/1retro1.jpg)
+![alt text](img/1retro2.jpg)
 - Begin motivatie
 - Gedrurende tijd minder
 - Later beter
@@ -296,7 +296,7 @@ retro:
 Werk en privé nemen meer tijd dan voorspeld. Daarnaast zit ik ook in een verbouwing wat afleid en druk is.
 
 Onderzoeken kan ik al redelijk goed, dat was vorig jaar ook een compliment van een docent. Schetsen vind ik leuk alleen moet ik nu bepaalde onderzoek beter betrekken.
-![alt text](20260925_152559.jpg)
+![alt text](img/1retro3.jpg)
 De eerste stappen
 
 Slak:
@@ -358,5 +358,148 @@ Daarom heb ik bedacht om een start pagina toe te voegen, zodat je niet gelijk wo
 
 Vervolgens krijg je de content te zien, maar om het dus minder makkelijk te maken om door zoveel mogelijk content te gaan, heb ik het moeilijker proberen te maken. Dit zodat je je meer bewust bent van wat je aan het doen bent en hoeveel tijd er is verstreken. Na elke video krijg je dan te zien wat je hebt bekenen, hoeveel video's, hoeveel seconden/minuten/uren je hebt bekeken en met de optie of je verder wilt. Als je hiermee na elke video wordt geconfronteerd ben je je hopelijk ook meer bewust van het scrollen.
 
+## Opdracht human consent component
+1. Onze garden staat gelinked aan github, dus denk dat deze inderdaad zeker een rol spelen. Daarnaast gebruiken we ook transip, dus denk ik dat deze ook gegevens kunnen achterhalen.
+2. Door duidelijke en aparte informatie pagina's te hebben en in je cookie pop-up genoeg te vermelden en opties beschikbaar maken voor meer uitleg als gebruikers daar baat bij hebben. Dus een soort privacy verklaring.
+3. Bijvoorbeeld door content pas in te laten laden/beschikbaar te stellen nadat er een akkoord is geven. Ook de bekende cookie pop-up of een ander soortgelijk venster. Hierin kunnen schakelaars, checkboxes, etc. staan. Ook het geven van een akkoord (opt-in), notificaties of andere manier van vermeldingen. Belangrijk is dat je vermeld waarover het gaat en informeerd waar de gebruiker toestemming op moet geven. Vervolgens moet er bewijs zijn dat er toestemming is gegeven.
+
+Een goed artikel met uitlegvideo die ik hierover heb gevonden:
+https://www.charlotteslaw.nl/avg-zo-vraag-je-op-de-juiste-manier-om-toestemming/
+
+4. Ik sta nog steeds achter een soort card ontwerp die ik eerder had ontworpen voor mijn garden. Dit is duidelijk en verstoord ook niet de website. Daarnaast moeten er duidelijke opties in staan en weet de gebruiker wat er van diegene gebruikt en gevraagd wordt. Zo schrik je gebruikers denk ik zo min mogelijk af/het verliezen van vertrouwen.
+
+### Checkout
+### Wat is een wireflow en wat heb je er aan?
+Een wireflow is een getekende of digitale schets van een pagina van jouw applicatie. Deze kan in low-fi, mid-fi of high-fi. Vervolgens wordt op de wireflow laten zien hoe en naar waar je navigeerd.
+### Wat zijn dark UX patterns? Geef drie voorbeelden...
+Dark patterns zijn misleidende patronen op het internet. Bijvoorbeeld het gebruik van timers bij webshops om mensen sneller over te halen een aankoop te doen, het moeilijk maken van het afsluiten van een abbonement, terwijl het makkelijk was deze te activeren of algoritmes die gebruikers verslaafd maken.
+### Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+Dat de gebruiker duidelijk weet wat je van diegene vraagt en wat het inhoudt, in een zo simpel mogelijk en overzichtelijke opstelling. Vervolgens moet de gebruiker een actie doen zodat diegene daadwerkelijk toestemming geeft. Hiermee is er bewijs voor de toestemming(en) van de gebruiker en voldoet dit aan de wet.
+
+## vr 25 sept
+Ik werk van mezelf altijd redelijk geordend en ook met code, ik kan best perfectionistisch zijn. Ik heb al degelijke ervaring, want heb hiervoor ICT gedaan. Hier ben ik na het eerste jaar mee gestopt, omdat ik de opleiding te technisch vond en meer mijn creativiteit wilde uitten. Ik heb de volgende meldingen gekregen van de checker:
+
+![alt text](img/image-36.png)
+Een fout die ik blijkbaar heb gemaakt wat volgens de checker en html niet mag is het plaatsen van een button tag in een anchor tag, omdat dit allebei interactieve elementen zijn. Dit wist ik niet en had ik zo gedaan om ze met elkaar te linken en het makkelijk te maken om te stylen.
+
+Ik heb daarom het button element verwijderd en de id verplaatst naar de anchor tag.
+
+De volgende warning gaf aan dat er in mijn sections geen headings bevatte. In mijn garden kan je zien dat ik verschillende kopjes gebruik zoals bijvoorbeeld 'hoe start je?', 'samen sporten' en 'alleen beginnen'. Deze gebruik ik als koppen en hebben ook een aparte styling voor de hierarchie. De html kan dit alleen niet herkennen dus heb ik van deze kopjes de p-tag veranderd naar een h2-tag en dit toegepast op alle pagina's. Ik heb hieronder de afbeeldingen geplaatst en de veranderingen gemarkeerd.
+
+Voor:
+![alt text](img/image-37.png)
+
+Na:
+![alt text](img/image-38.png)
+
+### Checkout
+### Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
+HTML validatie is het controleren en checken van je code, zodat de browser zo goed mogelijk de HTML structuur van je pagina kan lezen. Dit is belangerijk zodat er geen onnodige fouten worden gemaakt.
+### Welke dingen vielen je op?
+Kleine schoonheidsfoutjes die onschuldig lijken kunnen toch het verschil maken voor een betere en gestructureerdere HTML.
+
+## ma 28 sept
+Deze les moest je de NS bedienen met een toetsenbord en  screenreader. Ik heb het de lijst overgenomen:
+
+- [Windows key]+[control]+[enter]	Zet Narrator aan
+
+- [caps lock]+[control]+[I]	start met lezen vanaf het begin van de pagina
+
+- [caps lock]+[↓]	verder met lezen vanaf waar je gebleven was
+
+- [control]	shut up!!!
+
+- [caps lock]+[spatie]	scan-mode aan/uitzetten
+
+- [H] / [shift]+[H]	Naar de volgende heading / vorige heading
+
+- [2] / [shift]+[2]	naar de volgde h2 / vorige h2
+
+- [caps lock]+[F6]	open lijst met headings
+
+- [K] / [shift]+[K]	Naar de volgende link / vorige link
+
+- [caps lock]+[F7]	open lijst met links
+## Checkout 
+
+### Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
+Dat de html vooral goed is gestructureerd, zodat iedereen gebruik kan maken van het web en jouw website. De UX (gebruikerservaring) is dus het belangrijkste.
+### Wat voor type beperkingen hebben invloed op het gebruiken van websites?
+Zicht, geluid en motorisch, maar ook leesbeperkingen.
+### Noem drie manieren om door een website te navigeren met jouw screenreader.
+Door duidelijke en gestructureerde headers te gebruiken en links/knoppen.
+
+## wo 30 sept
+In deze les moest je je digital garden testen om erachter te komen of hij gebruiksvriendelijk is voor gebruik met een screenreader en toetsenbord. 
+
+Als ik mijn screenreader opent leest hij eerst de pagina door, beginnend bij mijn logo links boven naar de navbar en vervolgens naar beneden. Als ik de toetsen gebruik van mijn lijstje navigeerd hij door de pagina's heen. Zo kan ik met K navigeren naar mijn buttons en deze gebruiken en met h springen naar de headers en deze laten voorlezen. Ook werkt het navigeren met landmarks met de D toets.
+
+Wat mij wel opviel was het voorlezen van mijn afbeeldingen. De afbeeldingen die ik in mijn garden gebruik zijn voornamelijk decoratief als achtergrond daarom staan ze in de CSS en niet in de HTML. Daarom worden ze ook niet voorgelezen. Maar ik heb wel een aantal afbeeldingen onder de pagina'voeding' staan van voorbeeldmaaltijden. Ik had deze wel een alt-tekst gegeven, maar die waren alle 3 hetzelfde en heel simpel. Daarom heb ik die verandert naar: rijst met kip maaltijd, aardappelen met gehakt, ei, mozzarella en komkommer maaltijd en ei met kip en mozzarella maaltijd.
+
+![alt text](img/image-39.png)
+
+![alt text](img/image-40.png)
+
+### Checkout
+### Waar staat WCAG en A11y voor?
+Dat staat voor web content accessiblity guidelines. Deze zijn er zodat websites bruikbaar zijn voor mensen met een beperking. Websites moeten zich aan deze regels houden, zodat het web voor iedereen bruikbaar is. Dus ook voor mensen met bepaalde beperkingen.
+
+A11y staat voor accessibility.
+
+### Wat vind je lastiger, je laptop/websites alleen met een toetsenbord bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
+Screenreader vind ik lastiger, omdat ik me meer door de website moet (laten) navigeren.
 
 
+### Met welke beperking rekening houden vind je het meest lastig?
+Mensen met zichtbeperkingen vind ik en lijkt mij het meest lastig, omdat ik als ontwerper vooral visueel bezig ben en denk.
+
+### Vind je dat je beperkt wordt in wat je kunt ontwerpen? Of heb je al manieren gevonden om vanuit een solide basis  - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+Ik word niet zozeer beperkt. Het is vooral een uitdaging en iets waar je rekening mee moet houden als ontwerper. Als ik mijn idee gewoon uitwerk dan begin ik simpel, vervolgens ga ik hierop verder. Voorheen hield ik hier niet zoveel rekening mee en dacht ik er niet echt aan. Nu dus wel, want deze doelgroep moet ook gebruik kunnen maken van het internet.
+
+## Tuintje verfijnen
+Uit mijn voortgangsgesprek moet ik nog responsiveness toevoegen en darkmode om de gebruikerservaring te verbeteren. Daar ga ik mij nu op richten. Beginnend met responsiveness.
+
+Telefoon nu:
+![alt text](img/image-41.jpg) 
+![alt text](img/image-42.jpg)
+
+Ik ben begonnen met mijn navbar. Ik heb de afstanden tussen de links ingekort en deze onder elkaar laten zetten als het scherm verkleind. 
+
+![alt text](img/image-43.png)
+
+Ook valt mijn logo nietmeer over andere regels. De quotes op mijn pagina's heb ik ook afgebeeld door gebruik te maken van font-size. Op mijn home pagina staat deze bijvoorbeeld in 6rem. Dit werkt niet handig voor kleinere schermen. Hetzelfde als bij mijn andere headers. Ik had ook telkens aparte CSS regels per header maar heb deze onder een regel gezet met font-size clamp. Dit heeft mijn CSS ook flink verkort. Ik heb de headers hiermee ook flink verkleind, omdat dat niet goed werkt op kleinere schermen. 
+
+![alt text](img/image-44.png)
+
+De achtergronden van de quotes heb ik ook aangepast, door ipv. "height: 50vh;" te gebruiken dit te veranderen naar "min-height: 60vh;". Dit zodat de achtergrond van de quotes genoeg ruimte blijven behouden met de quote en niet smaller vallen. Hiervoor heb ik ook een margin boven en onder de quote gezet van 1em, zodat er genoeg ruimte blijft met de rand van de achtergrond en de quote. Hieronder is ook een voor en na.
+
+Voor:
+![alt text](img/image-45.png)
+
+Na:
+![alt text](img/image-46.png)
+
+![alt text](img/image-47.png)
+
+![alt text](img/image-48.png)
+
+![alt text](img/image-49.png)
+
+De onderwerpskaarten staan nu nog niet responsive. Zoals op de bovenste afbeelding was te zien was deze horizontaal afgebeeld, terwijl deze op een kleiner scherm zoals een telefoon onder elkaar moet staan.
+
+Ik heb met grid-template-columns: repeat(auto-fit, minmax(min100%, 250px), 1fr)) dit opgelost, zodat de kaarten naast elkaar blijven staan zoals gewoonlijk bij een breed scherm, zoals desktop, en onder elkaar worden gezet als het scherm wordt versmald, zoals bij een telefoon.
+
+![alt text](img/image-50.png)
+
+Door media-queries toe te voegen heb ik ook regels vastgesteld voor mijn CSS bij bepaalde schermbreedtes.
+
+Voor zover ik weet is mijn gehele digital garden nu responsive.
+
+Telefoon:
+![alt text](img/image-51.png)
+Tablet:
+![alt text](img/image-52.png)
+Laptop:
+![alt text](img/image-53.png)
+Desktop:
+![alt text](img/image-54.png)
