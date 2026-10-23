@@ -47,7 +47,7 @@ body {
 /* Cookie pop-up */
 .wrapper {
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
   right: 20px;
   max-width: 345px;
   width: calc(100% - 40px);
