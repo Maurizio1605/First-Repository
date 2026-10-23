@@ -503,3 +503,143 @@ Laptop:
 ![alt text](img/image-53.png)
 Desktop:
 ![alt text](img/image-54.png)
+
+## Wo 21 oktober 
+Ik ben een langere tijd afwezig geweest door ziekte en privéomstandigheden dus moet ik hier en daar nog wat bijwerken, zodat mijn garden natuurlijk zo compleet mogelijk is.
+
+In deze les hebben we gewerkt aan de Bi-weekly geek 3 en hebben we feedback aan elkaar gegeven in trios samen met een front-end student. Deze laatste dagen is het vooral de puntjes op de i zetten, dingen die ontbreken nog toepassen, feedback verwerken en hieruit weer verbeteringen toepassen voor de expo en de deadline. 
+
+Bi-weekly geek 3:
+![alt text](img/image-55.png)
+
+Mijn gegeven feedback aan Bera met Betül:
+![alt text](img/image-56.png)
+![alt text](img/image-57.png)
+
+Mijn ontvangen feedback van Betül en Bera:
+![alt text](img/image-58.png)
+![alt text](img/image-59.png)
+
+Mijn top 3 belangrijkste verbeterpunten zijn natuurlijk de cookie pop-up die ik nog miste, daarnaast ook de songtekst opdracht en kunnen er nog wat animaties worden toegepast. Ik heb namelijk alleen gebruik gemaakt van transitions bij de links in mijn navbar en de knoppen voor de gebruikerservarig. Hier ga ik mij nu dus als eerst op focussen en richten. Voor de rest zag mijn website en code er prima uit. Ook is hij volledig responsive, maar kwamen we nog achter één klein foutje die ik nog niet had ontdekt en dat was dat de 3e onderwerps kaart op de homepagina niet dezelfde breedte aanhoudt als de andere twee onderwerpskaarten op telefoon. 
+
+Verdere punten waren:
+- Bijpassende focus-states toevoegen
+- In de code nog benodigde headers toevoegen bij section en article elements, die horen daar namelijk standaard bij volgens de HTML regels.
+
+## Darkmode en mijn kleurgebruik
+Ik ga beginnen met het toevoegen van de darkmode. Mijn website staat al in principe in een darkmode, want hij maakt gebruik van een donker grijze achtergrond. Ik moet nu dus een toggle-switch voor light mode maken, zodat de achtergrond veranderd naar een witte-achtergrond met zwarte letters. Hiervoor heb ik de darkmode deepdive bij gepakt.
+
+Ik kan me nog herinneren dat ik in het eerste voortgangsgesprek een tip kreeg van de front-end student dat het handiger is om de kleurnamen die ik gebruik in CSS de namen te veranderen naar de functie voor de kleur. Aangezien ik nu toch met de kleuren bezig ben van mijn website lijkt het mij handig om dit direct toe te passen. Zo behoudt ik ook het overzicht voor de light en darkmode.
+
+Wat ook feedback was dat ik kreeg van Charley, was dat ik meer de resultaten uit mijn visual research en onderzoek naar voren moest halen naar mijn ontwerp. En niet zo zeer kleuren moest kiezen wat bij mij een bepaald gevoel opriep, maar juist wáárom ik die kleuren koos voor mijn context. Ik benoemde bijvoorbeeld groen als positieve en energieke kleur, maar groen kan veel meer betekenen en ook andere emoties oproepen. Daarom moest ik juist kijken naar wat valt nou echt op uit mijn research en onderzoek?
+
+### Feedback:
+
+Daarom heb ik vandaag aan mijn broer en neefjes gevraagd visueel te kijken naar mijn website en gevraagd welke indruk zij daarvan krijgen. De boodschap die ik met mijn garden wilde overbrengen is discipine, kracht en motivatie. Daarnaast ook en gevoel van focus en expressiviteit. Hun opmerkingen waren:
+- Sportief
+- Is samenhangend
+- compleet, geen afwijkende kleuren
+- Passend bij sport
+
+Maar enkele andere punten waren dat de boodschap wel duidelijk is, maar ook niet sterk genoeg overkomt, terwijl dat waarschijnlijk wel mijn intentie was. En dat klopt ook wel. Het contrast moet bijvoorbeeld sterker, omdat kracht en discipine sterkere kleuren bij passen dan die ik gebruik. Zodat mijn website expressiever wordt en er kunnen misschien nog wat meer expressievere elementen in terugkomen, in plaats van alleen een grote quote. 
+
+Charley gaf dit tijdens mijn eerste voortgangsgesprek ook aan dat ik van mijn bijvoorbeeld mijn crazy 8 en visual research de expressieve onderdelen en illustraties meer naar voren moet halen naar mijn ontwerp, zodat mijn boodschap beter overkomt en onderwerp unieker wordt.
+
+Ik kijk daarom nogmaals naar mijn visual research, crazy 8 en andere onderzoeksmethoden die ik had gedaan om als eerst met een nieuw kleuren palet te komen voor mijn garden. Ik vind hem wel juist, maar kan voor mijn gevoel nog beter en sterker, zodat de boodschap beter wordt. Bepaalde elementen of kleurtinten zou ik nog wel kunnen blijven gebruiken als dat kan en nodig is.
+
+![alt text](img/image-60.png)
+![alt text](img/image-61.png)
+![alt text](img/image-62.png)
+![alt text](img/image-63.png)
+
+Ik heb de afbeeldingen er weer even bijgepakt en het eerste wat mij opvalt is heel veel zwart en grijs. Namelijk de afbeeldingen met de interieuren van de krachtruimtes hebben zowat allemaal zwarte/donkere muren, vloeren en apparatuur. Behalve basic-fit die geven er bun eigen draai aan met de kleur oranje, maar gebruiken ook nogsteeds zwarte vloeren en meubels.
+
+Ik denk omdat er tijdens het sporten ook niet teveel afleiding moet zijn en het een plek is waar je voor jezelf bent en je jezelf wilt verbeteren en moet focussen. Als er dan allerlei regenboogkleuren worden gebruikt kan dit toch storend zijn en meer prikkels geven voor mensen.
+
+De meeste afbeeldingen waarop een persoon een kracht handeling uitvoert zoals pull-ups worden ook zwart-wit filters op toegevoegd.
+
+Daarnaast zijn motivatie berichten ook heel kenmerkend door zwart-wit gebruik. Er worden berichten gemaakt met een zwarte achtergrond en witte tekst, en andersom. 
+
+De posters die ik als favoriet had genomen en had geannalyseerd bevatte ook ditzelfde zwart-wit kleur gebruik. Een verschil dat mij opvalt is dat de quotes die worden gebruikt veel groter en vetgedrukter zijn afgebeeld dan wat ikzelf gebruikt voor mijn garden. 
+
+Dit kan ik meenemen naar mijn light en darkmode. In mijn website is dit niet zoveel en genoeg zichtbaar, ik gebruik alleen een tint van grijs als achtergrond. Zwart is blijkbaar een kleur voor focus, krachtsport en discipine, omdat het veel naar voren komt uit mijn visual research en wordt gebruikt in zowel afbeeldingen en zelfs interieurs.
+
+Momenteel heb ik de kleuren:
+
+    --midnight-slate: #40494E;
+    --white: #FFFFFF;
+    --silver-mist: #D9D9D6;
+    --thunder-lime: #E5E22C;
+    --black: #000000;
+    --deep-slate: #30383C;
+    
+Ik wil niet een te donker zwart gebruiken dus heb ik een gebroken zwart gekozen als achtergrond kleur, daarbij wil ik wel sterke witte letters behouden voor de contrast met de tekst.
+
+Voor de accent color vind ik groen nogsteeds persoonlijk een mooie kleur om te gebruiken, alleen past de huidige niet goed bij de nieuwe kleuren die ik heb. Dus moet ik opzoek naar een nieuwe kleur groen die het beste hierbij past. Ik heb nagedacht en gekeken welke kleuren er naast zwart en grijs voorkomende in de sportschool. Toen kwam ineens in mij op dat de rubberen gewichtsplaten verschillende kleuren aannemen. In mijn sportschool namelijk zwart voor 5kg, groen voor 10kg en blauw voor 20kg van het merk ziva. 
+
+![alt text](img/image-64.png)
+
+ Op basis van de verzamelde afbeeldingen ben ik op deze kleur groen uitgekomen als accentkleur voor mijn garden. Daarnaast vind ik het idee van het gebruiken van de gewichtsplaten als accentkleur erg leuk, dus neem ik voor de zekerheid de kleuren blauw, rood en geel ook voor de zekerheid mee. Dit sluit ook goed aan op mijn gekozen lettertype voor de headers, omdat door de strepen in de letters een soort gegraveerde look creëert, wat mij weer doet denken aan stalen platen.
+
+![alt text](img/image-65.png)
+![alt text](img/image-66.png)
+![alt text](img/image-67.png)
+![alt text](img/image-68.png)
+
+ Nu heb ik de kleuren:
+
+    --broken-black: #212121;
+    --white: #ffffff;
+    --silver-mist: #D9D9D6;
+    --green: #0c7049;
+    --blue: #1730d1;
+    --red: #700c0c;
+    --yellow: #d9cc1a;
+    --deep-black: #000000;
+
+Deze moeten dus worden:
+
+    --background-color: var(--deep-black);
+    --text-color: var(--white);
+    --text-muted-color: var(--silver-mist);
+    --accent-color: var(--green);
+    --accent-color2: var(--blue);
+    --accent-color3: var(--red);
+    --accent-color4: var(--yellow);
+    --text-invers-color: var(--deep-black);
+    --surface-color: var(--broken-black);
+
+Ik heb als primaire accentkleur groen gebruikt voor mijn home, start en overmij pagina en de andere kleuren blauw, rood en geel gebruikt voor de verschillende onderwerpen. Net als dat elke andere gewichtsplaat een eigen andere kleur heeft. Dit vond ik een leuk idee om toe te passen wat mijn website weer unieker maakt en minder saai. Ik heb ook de quote op de home pagina vergroot voor een duidelijkere boodschap.
+
+![alt text](img/image-69.png)
+![alt text](img/image-70.png)
+![alt text](img/image-71.png)
+![alt text](img/image-72.png)
+![alt text](img/image-73.png)
+![alt text](img/image-74.png)
+![alt text](img/image-75.png)
+
+
+
+Ook om mijn digital garden persoonlijker en meer mijn eigen te maken heb ik wat foto's toegevoegd die ik wel eens had gemaakt, zodat ook de lezer mij beter leert kennen. Nu is hij compleet met alle aanpassingen verwerkt en kan ik light mode toepassen.
+
+Ik heb dit gedaan door color scheme: light dark toe te voegen en de kleuren hun eigen variabelen te geven. Hiermee past de garden zich automatisch aan aan de browserinstellingen. 
+
+![alt text](img/image-76.png)
+
+![alt text](img/image-77.png)
+
+![alt text](img/image-78.png)
+
+## Cookie pop-up
+
+Dit was de wireframe voor mijn cookie pop-up.
+
+![alt text](img/image-79.png)
+
+Realisatie cookie pup-up:
+![alt text](img/image-80.png)
+
+https://www.youtube.com/watch?v=4Ev4i2iWngc&t=31s
+
+Ik heb bovenstaande video gebruikt om mijn cookie pop-up te realiseren in mijn huistijl. Als je op de accepteer knop drukt verdwijnt de melding en als je op weiger drukt wordt je doorverwezen naar Google.

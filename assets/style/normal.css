@@ -13,21 +13,120 @@
 }
 
 :root {
-    --midnight-slate: #40494E;
-    --white: #FFFFFF;
-    --silver-mist: #D9D9D6;
-    --thunder-lime: #E5E22C;
-    --black: #000000;
-    --deep-slate: #30383C;
+  color-scheme: light dark;
+
+  --broken-black: #212121;
+  --white: #ffffff;
+  --silver-mist: #D9D9D6;
+  --green: #0c7049;
+  --blue: #2438b6;
+  --red: #700c0c;
+  --yellow: #d9cc1a;
+  --deep-black: #141313;
+
+  --background-color: light-dark(#f2f0eb, var(--deep-black));
+  --text-color: light-dark(var(--deep-black), var(--white));
+  --text-muted-color: light-dark(#555555, var(--silver-mist));
+  --surface-color: light-dark(#e8e6e1, var(--broken-black));
+
+  --accent-color: var(--green);
+  --accent-color2: var(--blue);
+  --accent-color3: var(--red);
+  --accent-color4: var(--yellow);
+  
+  --text-invers-color: var(--deep-black); 
 }
 
 body {
   margin: 0;
   font-family: "Barlow", system-ui;
-  background-color: var(--midnight-slate);
-  color: var(--white);
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
+/* Cookie pop-up */
+.wrapper {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  max-width: 345px;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  background: var(--surface-color);
+  color: var(--text-color);
+  border: 1px solid var(--accent-color);
+  padding: 15px 25px 22px;
+  z-index: 1000;
+}
+
+.wrapper header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  padding: 0;
+}
+
+.wrapper .data {
+  margin-top: 16px;
+}
+
+.wrapper h2 {
+  color: var(--accent-color);
+  font-weight: 500;
+  margin: 0;
+}
+
+.wrapper .data p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.wrapper .data p a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.data p a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons .button {
+  font-family: "Barlow", system-ui;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: var(--white);
+  width: calc(100% / 2 - 10px);
+  padding: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  background: var(--green);
+}
+
+.buttons .button:hover {
+  text-decoration: underline;
+}
+
+#cookie-accept {
+  display: none;
+}
+
+#cookie-accept:checked ~ .wrapper {
+  display: none;
+}
+
+/* Navbar */
 header {
   padding: 25px 50px;
 }
@@ -42,7 +141,7 @@ nav {
 .logo {
   font-family: "BigShouldersStencil";
   font-size: 32px;
-  color: var(--white);
+  color: var(--text-color);
   font-weight: bold;
   white-space: nowrap;
 }
@@ -58,22 +157,23 @@ nav ul {
 }
 
 a {
-  color: var(--white);
+  color: var(--text-color);
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
 }
 
 a:hover {
-  color: var(--thunder-lime);
+  color: var(--accent-color);
   text-decoration: underline;
   transition: 0.3s;
 }
 
 nav a.active {
-  color: var(--thunder-lime);
+  color: var(--accent-color);
 }
 
+/* main */
 .quote {
   min-height: 50vh;
   display: flex;
@@ -82,7 +182,7 @@ nav a.active {
   text-align: center;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym.jpg");
+  background-image: linear-gradient( rgba(33, 33, 33, 0.65), rgba(33, 33, 33, 0.65)), url("../../img/gym.jpg");
 }
 
 .quote h1,
@@ -95,10 +195,15 @@ nav a.active {
   font-size: clamp(4em, 8vw, 6em);
   line-height: 1;
   margin: 1em;
+  color: var(--white);
+}
+
+.quote h1 {
+    transform: scaleX(1.3);
 }
 
 .logo span, .quote span {
-  color: var(--thunder-lime);
+  color: var(--accent-color);
 }
 
 #logo {
@@ -114,14 +219,14 @@ nav a.active {
 }
 
 .intro-label {
-  color: var(--thunder-lime);
+  color: var(--accent-color);
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
 .intro-text {
-  color: var(--silver-mist);
+  color: var(--text-muted-color);
   font-size: clamp(1em, 2.5vw, 1.2em);
   line-height: 1.5;
   max-width: 400px;
@@ -132,7 +237,7 @@ nav a.active {
   font-family: "Barlow";
   font-size: 1.2em;
   font-weight: 500;
-  background-color: var(--thunder-lime);
+  background-color: var(--accent-color);
   color: var(--black);
   padding: 0.75em 1em;
   border: none;
@@ -141,8 +246,8 @@ nav a.active {
 }
 
 #start-button:hover {
-  background-color: #c9c62a;
-  color: var(--white);
+  background-color: var(--accent-color);
+  color: var(--text-color);
 }
 
 .topics {
@@ -154,10 +259,10 @@ nav a.active {
 }
 
 .topic {
-  color: var(--white);
+  color: var(--text-color);
   padding: 30px;
   min-height: 250px;
-  background-color: var(--deep-slate);
+  background-color: var(--surface-color);
   box-sizing: border-box;
 }
 
@@ -168,14 +273,14 @@ nav a.active {
 }
 
 .topic p {
-  color: var(--silver-mist);
+  color: var(--text-muted-color);
   line-height: 1.5;
 }
 
 .topic a {
   display: inline-block;
   margin-top: 20px;
-  color: var(--thunder-lime);
+  color: var(--accent-color);
   font-weight: bold;
 }
 
@@ -187,11 +292,11 @@ nav a.active {
   text-align: center;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym2.jpg");
+  background-image: linear-gradient( rgba(33, 33, 33, 0.65), rgba(33, 33, 33, 0.65)), url("../../img/gym2.jpg");
 }
 
 .start-text {
-  color: var(--silver-mist);
+  color: var(--text-muted-color);
   font-size: 1.2rem;
   line-height: 1.5;
   max-width: 500px;
@@ -206,7 +311,7 @@ nav a.active {
   text-align: center;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym3.jpg");
+  background-image: linear-gradient( rgba(33, 33, 33, 0.65), rgba(33, 33, 33, 0.65)), url("../../img/gym3.jpg");
 }
 
 .voeding-quote {
@@ -217,7 +322,7 @@ nav a.active {
   text-align: center;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym4.jpg");
+  background-image: linear-gradient( rgba(33, 33, 33, 0.65), rgba(33, 33, 33, 0.65)), url("../../img/gym4.jpg");
 }
 
 .progressie-quote {
@@ -229,6 +334,7 @@ nav a.active {
   background-size: cover;
   background-position: center;
   background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym5.jpg");
+  background-position: center 1%;
 }
 
 .overmij-quote {
@@ -239,7 +345,7 @@ nav a.active {
   text-align: center;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient( rgba(64, 73, 78, 0.65), rgba(64, 73, 78, 0.65)), url("../../img/gym6.jpg");
+  background-image: linear-gradient( rgba(33, 33, 33, 0.65), rgba(33, 33, 33, 0.65)), url("../../img/gym6.jpg");
 }
 
 main {
@@ -251,11 +357,71 @@ img {
   height: auto;
 }
 
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
 
+.photos img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
+footer {
+    text-align: center;
+}
 
+#blue {
+  color: var(--accent-color2);
+}
 
+#button-training {
+  font-family: "Barlow";
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: var(--accent-color2);
+  color: var(--black);
+  padding: 0.75em 1em;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
+#red {
+  color: var(--accent-color3);
+}
+
+#button-voeding {
+  font-family: "Barlow";
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: var(--accent-color3);
+  color: var(--black);
+  padding: 0.75em 1em;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#yellow {
+  color: var(--accent-color4);
+}
+
+#button-progressie {
+  font-family: "Barlow";
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: var(--accent-color4);
+  color: var(--black);
+  padding: 0.75em 1em;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
 
 /* Tablets en kleinere laptops */
@@ -287,9 +453,11 @@ img {
     width: calc(50% - 5.5px);
   }
 
+  .topic:last-child {
+  grid-column: auto;
+  width: 100%;
 }
 
-/* Media queries: */
 /* Mobiele telefoons */
 @media (max-width: 600px) {
 
@@ -361,5 +529,5 @@ img {
   .topic h2 {
     font-size: 2.5rem;
   }
-
+}
 }
