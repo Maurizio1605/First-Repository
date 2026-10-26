@@ -38,6 +38,7 @@ Met HTML en CSS kan je aanpassingen aanbrengen op je webpagina met een code edit
 ### Typografie (Diederik)
 - Ik kon niet bij deze dag zijn dus heb thuis het huiswerk en de opdrachten gedaan.
 
+Belangrijke punten uit de artikelen notities:
 ![alt text](img/image-2.png)
 ![alt text](img/image-3.png)
 
@@ -94,9 +95,56 @@ Ik kan dan mijn ervaringen, hobby's en interesses vormgeven op de website, alles
 Als onderwerp heb ik gekozen voor sport. Er gaat namelijk best wat van mijn tijd in sport en dit doe ik alleen of met vrienden. Ik vind het een leuke bezigheid in mijn vrije tijd wat mij uitdaagd en het is een moment waarin ik mijn focus ergens anders op kan richten. Daarom leek dit onderwerp mij leuk en perfect om hiermee aan de slag te gaan.
 
 ![alt text](img/image-7.jpg)
+
+Bronnen foto's:
+
+res.cloudinary.com
+
+irp.cdn-website.com
+
+profitgym.nl
+
+api.workit.nl
+
+gym-club.nl
+
+dynamic-media-cdn.tripadvisor.com
+
+nl.myprotein.com
+
+thumb.wikimedia.org
+
+basic-fit.com
+
+datocms-assets.com
+
+deaandeelhouder.nl
+
+image.deondernemer.nl
+
+hips.hearstapps.com
+
+cdn-blog.superprof.com
+
+media.istockphoto.com
+
+i1.sndcdn.com
+
+media1815.io
+
+shape.com
+
+img.macnific.com
+
+w0.peakpx.com
+
+i.pinimg.com
+
+brightdrops.com
+
 Ik heb zoveel mogelijk foto's omtrent sport proberen te verzamelen. Zoals het uiterlijk van sport, daarbij dacht ik aan gebouwen, apparatuur, kleding en de activiteiten. Ook wat er bij sport komt kijken, zoals de persoonlijke behaalde prestaties, maar daar hoort natuurlijk ook voeding en discipline bij. Al deze vormen heb ik geprobeerd te visualiseren en samen te brengen naar een geheel.
 
-Veel voorkomende kleuren zijn dan ook donker, zoals grijs en zwart. Dit is namelijk typerend voor sport apparatuur en bij discipline/consistentie is zwart een veel gekozen kleur. Ik denk omdat het emotieloos is en vooral gaat het om het doelgerichte aspect. Daar passen kleuren als wit en zwart heel goed bij. Andere kleuren zoals bij voeding is dan weer heel kleurrijk, omdat gezond en natuurlijk voedsel heel gevarieerd is. Als subcultuur is het dan ook vooal de sportcultuur en mensen die zichzelf willen verbeteren en gezond willen blijven.
+Veel voorkomende kleuren zijn dan ook donker, zoals grijs en zwart. Dit is namelijk typerend voor sport apparatuur en bij discipline/consistentie is zwart een veel gekozen kleur. Ik denk omdat het emotieloos is en vooral gaat het om het doelgerichte aspect. Daar passen kleuren als wit en zwart heel goed bij. Andere kleuren zoals bij voeding is dan weer heel kleurrijk, omdat gezond en natuurlijk voedsel heel gevarieerd is. Als subcultuur is het dan ook vooral de sportcultuur en mensen die zichzelf willen verbeteren en gezond willen blijven.
 
 ### Checkout:
 ### Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
@@ -255,6 +303,19 @@ Zoals ik eerder had besproken wilde ik per onderwerp een aparte pagina. Deze heb
 - just show up
 - progress takes time
 
+Ik heb de volgende afbeeldingen van unsplash gebruikt voor mijn garden:
+
+https://unsplash.com/photos/grayscale-photo-of-man-working-out-sHfo3WOgGTU
+
+https://unsplash.com/photos/person-in-gray-shirt-holding-black-dumbbell-FP7cfYPPUKM
+
+https://unsplash.com/photos/a-gym-filled-with-lots-of-machines-and-weights-1RNQ11ZODJM
+
+https://unsplash.com/photos/a-black-and-white-photo-of-a-barbell-in-a-gym-wcOGQeT1jIw
+
+https://unsplash.com/photos/man-fist-bump-to-man-laying-on-ground-nlZTjUZX2qo
+
+https://unsplash.com/photos/raw-meat-assortment-on-wooden-board-YlAmh_X_SsE
 ![alt text](img/image-15.png)
 
 Vervolgens kan je beginnen bij de 'start' pagina, hierin geef ik een uitleg en deel ik mijn ervaring en kennis. Dan wordt je doorverwezen naar de volgende 'training', 'voeding' en 'over mij' pagina met dezelfde principe inhoud. Ook staat er een bij iedere pagina een knop waarbij je een bijhorend artikel opent.
@@ -619,9 +680,13 @@ Ik heb als primaire accentkleur groen gebruikt voor mijn home, start en overmij 
 ![alt text](img/image-74.png)
 ![alt text](img/image-75.png)
 
+Voor de toegankelijkheid heb ik ook een bijpassende focus-state toegevoegd, zoals werd aangegeven als verbeterpunt uit de feedback ronde:
 
+![alt text](image-8.png)
 
 Ook om mijn digital garden persoonlijker en meer mijn eigen te maken heb ik wat foto's toegevoegd die ik wel eens had gemaakt, zodat ook de lezer mij beter leert kennen. Nu is hij compleet met alle aanpassingen verwerkt en kan ik light mode toepassen.
+
+![alt text](image-9.png)
 
 Ik heb dit gedaan door color scheme: light dark toe te voegen en de kleuren hun eigen variabelen te geven. Hiermee past de garden zich automatisch aan aan de browserinstellingen. 
 
@@ -643,3 +708,187 @@ Realisatie cookie pup-up:
 https://www.youtube.com/watch?v=4Ev4i2iWngc&t=31s
 
 Ik heb bovenstaande video gebruikt om mijn cookie pop-up te realiseren in mijn huistijl. Als je op de accepteer knop drukt verdwijnt de melding en als je op weiger drukt wordt je doorverwezen naar Google.
+
+## Voortgangsgesprek 
+
+In de les met Nicky mijn voortgangsgesprek gehouden. De feedback die ik had ontvangen was:
+
+- Idee van het kleurgebruik voor de verschillende onderwerpen als gewichtskleuren is heel leuk, maar de contrast kan beter voor blauw en rood, want deze vallen weg met de donkere achtergrond.
+- Cookie pop-up kan uitgebreider, zodat de pop-up uitklapbaar is met de optie "Lees meer".
+- Overbodige divs kunnen er uit gefilterd worden.
+- Songtekst opdracht nog maken, zodat alles compleet is.
+
+Tops waren dat de huidige styling beter is en dat de site er consistent uitziet. 
+
+## Verwerken
+
+### Kleur:
+Ik begin met de kleine dingen eerst, dus begin met de kleuren blauw en rood aan te passen. Ik heb beide kleuren opvallender gemaakt door ze lichter te maken.
+
+Blauw - voor:
+![alt text](img2/image.png)
+Blauw - na:
+![alt text](img2/image-1.png)
+
+Rood - voor:
+![alt text](img2/image-2.png)
+Rood - na:
+![alt text](img2/image-3.png)
+
+Kaarten voor:
+![alt text](img2/image-4.png)
+Kaarten na:
+![alt text](img2/image-5.png)
+
+Nu behouden de onderwerpen nog wel hun kleur, maar hebben ze meer contrast en is de toegangelijkheid verbeterd voor bijvoorbeeld mensen die moeite hebben met kleuren te onderscheiden.
+
+### Div verwijderen
+
+In de cookie pop-up die ik had gerealiseerd met de uitlegvideo stonden blijkbaar onnodige div elementen. Ik heb deze verwijderd samen met de bijhorende selectors in css die deze div class gebruikte en er veranderde inderdaad niets aan de pop-up. Hierdoor is mijn HTML iets simpeler.
+
+![alt text](img2/image-6.png)
+
+Hetzelfde geldt voor mijn logo in mijn navbar hierin staat een div met een class logo, deze is overbodig en veranderd mijn styling niet ben ik achter gekomen.
+
+![alt text](img2/image-7.png)
+
+### Cookie uitbreiden:
+
+De volgende feedback was dat de cookie pop-up uitgebreider kan en dat Nicky nieuwsgierig was naar wat er nog meer te lezen valt. Daarom ga ik hem uitbreiden en completer maken doordat je de melding kan openen en sluiten. Ik had nog de volgende schetsen van het uitklappen van de melding:
+
+![alt text](img/image-79.png)
+
+Ik heb als eerst de tekst verandert van "Wij hechten waarde aan uw privacy" naar "Wij respecteren uw privacy". Hetzelfde dus als wat er wordt gebruikt in mijn wireframes, deze vind ik korter en krachtiger en staat netter in de pop-up.
+
+![alt text](img2/image-10.png)
+
+Vervolgens heb ik de pop-up zich laten uitbreiden als je op leesmeer drukt voor nieuwe content.
+![alt text](img2/image-11.png)
+
+Deze heb ik in twee categorieën gezet met een uitleg.
+![alt text](img2/image-12.png)
+
+Je moet de pop-up wel kunnen sluiten of opslaan dus heb ik deze toegevoegd. Samen met de checkboxes die de schakelaars worden voor de voorkeuren.
+![alt text](img2/image-14.png)
+
+En deze weer gestyled.
+![alt text](img2/image-13.png)
+
+Hetzelfde met de terug en opslaan knop.
+![alt text](img2/image-15.png)
+
+Ik heb nu van deze eerste versie feedback gevraagd aan mijn broer om de pop-up te bekijken en gebruiken. Punten die ik heb gekregen was dat de noodzakelijke schakelaar er niet uitzag als een vaste optie, die je dus niet kan veranderen. Zijn feedback was dus om deze kleur een andere tint te geven, zodat deze er visueel niet veranderbaar uitziet. Ook veranderd de cursor in een pointer als je erover heen hovert, wat het verleidelijk maakt om te gebruiken, dus moest ik deze ook weghalen. 
+
+Verder zijn de buttons die ik gebruik voor mijn cookies niet in capitale letters wat ik wel gebruik voor in de rest van mijn garden. Dit heb ik dus ook aangepast voor de consistentie.
+
+En voor de leesbaarheid de tekst dezelfde lichtgrijze kleur te geven als die ik gebruik voor mijn intro, zodat de headers beter gescheiden worden met de uitleg tekst.
+
+Nieuwe versie:
+![alt text](img2/image-16.png)
+
+![alt text](img2/image-17.png)
+
+![alt text](img2/image-18.png)
+
+Nu is alleen het enige probleem dat de cookie pop-up helemaal niet bedienbaar is met de tab toets voor de toegankelijkheid. Dit had ik ook laten zien aan Nicky en was ook een belangrijk punt om op te lossen. Dit komt blijkbaar omdat ik geen html elementen gebruik die bedienbaar zijn en herkent worden voor de tab toets, namelijk door het label element. Deze gebruik ik om de pop-up werkend te maken als je op een knop drukt. Hier moet ik dus iets anders voor vinden, maar dat hij wel werkend blijft.
+
+Ik heb dit opgelost door de labels te vervangen met button elementen, omdat hij deze wel herkent. Alleen om de knoppen nu werkend te houden is er wel een stukje JavaScript nodig, deze heb ik met chat geplaatst. Ik kan zelf namelijk niet zo goed JavaScript. Waar het op neerkomt is dat je variabeles maakt die zoeken naar de elemeten of classes die ik gebruik. Als ik deze gebruik voert hij code uit om een taak uit te voeren, zoals het openen of sluiten van de pop-up. Om het voor mezelf overzichtelijk te maken heb ik er comments bij gezet.
+
+![alt text](img2/image-19.png)
+
+![alt text](img2/image-20.png)
+
+![alt text](img2/image-21.png)
+
+## Songtekst
+
+### Opdracht 1: Songtekst analyseren
+
+- Kies een nummer dat je aanspreekt
+
+Ik kies voor het nummer Let It Happen van Tame Impala. Ik ken dit nummer en vind het een leuk en expressief nummer.
+- Neem een deel van de songtekst waar je ritme, contrast, dynamiek in herkent
+
+De outro vind ik erg catchy, vooral wanneer de elektrische gitaar voorkomt. Dit blijft bij mij altijd hangen door de klanken en de tekst.
+
+- Maak 10 verschillende schetsen voor een expressief vormgegeven schermontwerp met de songtekst, waarbij je met name let op: ritme in de tekst (speel met plaatsing, font-size, measure, line-height, spacing)
+Hiërarchie (wat wil je de meeste aandacht geven?)
+
+![alt text](img2/image-22.png)
+
+### Opdracht 2: Bespreek je schetsen met een ander
+
+- Wat wil je bij de kijker bereiken met je vormgeving?
+
+Het gevoel van het nummer, de energie en speelsheid maar ook de drama.
+
+- Hoe voegt jouw opzet iets toe aan de tekst?
+
+Ik heb dit op verschillende manieren geprobeerd. Door verschillende letter groottes te gebruiken en capitale letters waar de nadruk nodig is, vloeiende vormen en uittreksels van letters voor een vagend effect.
+
+- Wat is een volgende stap: welke schets vind je het meest geschikt om digitaal uit te werken?
+
+Ik denk een combinatie van de tweede rij rechts met de uitgetrokken letters. Dit visualiseerd denk ik goed de manier waarop het nummer wordt gezongen omdat de woorden niet statisch staan maar mee bewegen en worden meegenomen.
+
+- Hoe zou je dit kunnen aanpakken in code? (vraag hulp wanneer je het niet zeker weet)
+
+Positionering en translate y en x onder andere te gebruiken denk ik.
+
+### Opdracht 3
+
+Neem de css- en html-documenten met de songtitel van je keuze uit het zip-bestand 'Songs' (zie Bronnen). Met deze bestanden ga je experimenteren in ontwerp en code. Omdat de nadruk ligt op compositie en ritme gebruik je geen kleur en alleen het lettertype Seraphs. 
+
+De tekst is nu in HTML zichtbaar als één lange zin, je zult deze dus eerst in logische onderdelen moeten benoemen (h1, h2, h3, p, em etc.) om hieraan plaatsing en opmaak toe te kunnen kennen. 
+
+![alt text](img2/image-23.png)
+
+## Check-out
+
+- Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)
+
+Kerning: ruimte tussen twee letters
+tracking: ruimte tussen alle letters
+leading: de ruimte in regels
+flush-left: tekst wordt links uitgelijnd
+flush-right: tekst wordt rechts uitgelijnd
+centered: gecentreerde tekst
+justified: links en rechts is gelijk en neemt hele inhoud
+indent: inspringing
+outdent: uitspringing
+modular scale: verhouding is overal hetzelfde
+movable type: hergebruik van letters
+focuspunt: trekt de focus in een ontwerp
+contrast: kleur, grootte, vorm, gewicht en ruimte
+spatial tension: verschillende plaatsing van vormen
+
+- Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+
+Te lange regels lezen niet fijn, hetzelfde geldt voor te korte regels. Daarom lijkt mij rond de 50 het beste.
+
+- Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+
+In mijn schetsen heb ik vooral gebruik gemaakt van grootte. Hiermee kan ik het beste en leukste mee spelen, de nadruk leggen of de toon.
+
+![alt text](img2/image-24.png)
+
+Ik ben toch gegaan voor deze schets, deze leek mij haalbaar en het leukst om uit te voeren.
+
+![alt text](img2/image-25.png)
+
+Daaruit is dit ontwerp gekomen. Ik heb gebruik gemaakt van verschillende letter groottes en diktes. Maar heb ook de nadruk gelegd door woorden schuin te drukken of uit te rekken.
+
+### Checkout
+- Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+
+Een grid helpt voor een overzicht.
+
+- Noem drie manieren om chaos in je ontwerp te voorkomen.
+
+Niet teveel kleur, geen hiërchie gebruiken en teveel verschillende letters.
+
+- Hoeveel gekkigheid moet er in je werk zitten?
+
+Zolang het maar in balans is en past bij de context is het goed.
+
+
+

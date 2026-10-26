@@ -19,8 +19,8 @@
   --white: #ffffff;
   --silver-mist: #D9D9D6;
   --green: #0c7049;
-  --blue: #2438b6;
-  --red: #700c0c;
+  --blue: #5570ff;
+  --red: #c62828;
   --yellow: #d9cc1a;
   --deep-black: #141313;
 
@@ -44,12 +44,17 @@ body {
   color: var(--text-color);
 }
 
+:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 3px;
+}
+
 /* Cookie pop-up */
 .wrapper {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  max-width: 345px;
+  max-width: 350px;
   width: calc(100% - 40px);
   box-sizing: border-box;
   background: var(--surface-color);
@@ -66,28 +71,37 @@ body {
   padding: 0;
 }
 
-.wrapper .data {
-  margin-top: 16px;
-}
-
 .wrapper h2 {
   color: var(--accent-color);
   font-weight: 500;
   margin: 0;
 }
 
-.wrapper .data p {
-  color: var(--text-color);
+.wrapper p {
+  color: var(--text-muted-color);
   font-size: 16px;
   line-height: 1.5;
 }
 
-.wrapper .data p a {
+.wrapper p a {
   color: var(--accent-color);
   text-decoration: none;
 }
 
-.data p a:hover {
+.wrapper p a:hover {
+  text-decoration: underline;
+}
+
+.read-more {
+  color: var(--green);
+  cursor: pointer;
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.read-more:hover {
   text-decoration: underline;
 }
 
@@ -100,7 +114,7 @@ body {
 }
 
 .buttons .button {
-  font-family: "Barlow", system-ui;
+  font-family: "Barlow";
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -109,7 +123,6 @@ body {
   color: var(--white);
   width: calc(100% / 2 - 10px);
   padding: 8px 0;
-  border-radius: 4px;
   cursor: pointer;
   background: var(--green);
 }
@@ -118,13 +131,148 @@ body {
   text-decoration: underline;
 }
 
-#cookie-accept {
+
+#cookie-accept, #cookie-details {
   display: none;
 }
 
 #cookie-accept:checked ~ .wrapper {
   display: none;
 }
+
+.cookie-details {
+  display: none;
+}
+
+#cookie-details:checked ~ .wrapper .cookie-details {
+  display: block;
+}
+
+#cookie-details:checked ~ .wrapper {
+  max-width: 550px;
+  width: calc(100% - 40px);
+  min-height: 475px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  
+}
+
+#cookie-details:checked ~ .wrapper .cookie-intro {
+  display: none;
+}
+
+.cookie-option {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+margin-top: 20px;
+}
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch input:focus-visible + .slider {
+  outline: 3px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #888;
+  transition: 0.3s;
+  border-radius: 24px;
+}
+
+.switch-disabled .slider {
+  cursor: default;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.switch input:checked + .slider {
+  background-color: var(--green);
+}
+
+.switch-disabled input:checked + .slider {
+  background-color: #6b9b86;
+}
+
+.switch input:checked + .slider::before {
+  transform: translateX(21px);
+}
+
+
+
+.cookie-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.cookie-buttons .button {
+  font-family: "Barlow", system-ui;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-back {
+  color: var(--green);
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: "Barlow", system-ui;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-back:hover {
+  text-decoration: underline;
+}
+
+.button-save {
+  padding: 10px 18px;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+}
+
+.button-save:hover {
+  text-decoration: underline;
+}
+
 
 /* Navbar */
 header {
@@ -461,6 +609,14 @@ footer {
 /* Mobiele telefoons */
 @media (max-width: 600px) {
 
+  #cookie-details:checked ~ .wrapper {
+    width: calc(100% - 30px);
+    max-width: none;
+    min-height: auto;
+    max-height: calc(100vh - 30px);
+    overflow-y: auto;
+  }
+
   header {
     padding: 20px;
   }
@@ -477,12 +633,14 @@ footer {
   }
 
   nav ul {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 15px 20px;
+    gap: 12px 16px;
   }
 
   nav ul a {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .quote {
