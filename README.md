@@ -682,11 +682,11 @@ Ik heb als primaire accentkleur groen gebruikt voor mijn home, start en overmij 
 
 Voor de toegankelijkheid heb ik ook een bijpassende focus-state toegevoegd, zoals werd aangegeven als verbeterpunt uit de feedback ronde:
 
-![alt text](image-8.png)
+![alt text](img/image-75.2.png)
 
 Ook om mijn digital garden persoonlijker en meer mijn eigen te maken heb ik wat foto's toegevoegd die ik wel eens had gemaakt, zodat ook de lezer mij beter leert kennen. Nu is hij compleet met alle aanpassingen verwerkt en kan ik light mode toepassen.
 
-![alt text](image-9.png)
+![alt text](img/image-75.3.png)
 
 Ik heb dit gedaan door color scheme: light dark toe te voegen en de kleuren hun eigen variabelen te geven. Hiermee past de garden zich automatisch aan aan de browserinstellingen. 
 
@@ -890,5 +890,143 @@ Niet teveel kleur, geen hiërchie gebruiken en teveel verschillende letters.
 
 Zolang het maar in balans is en past bij de context is het goed.
 
+## Expo
+
+Vandaag de laatste les gehad van het blok. We hebben met de klas een expo gehouden en elkaars gardens bekeken en beoordeelt met stippen. Het was leuk en interessant om te zien wat iedereen allemaal heeft gemaakt en dus ook heel leerzaam.
+
+Ik heb de volgende stickers ontvangen:
+
+![alt text](img2/image-26.png)
+
+Enkele tops waren:
+- Goede toegankelijkheid door de flow van de site
+- Duidelijke cookies en professionele site
+- Cookies fijn dat je zelf kan bepalen
+- Design past goed bij het onderwerp
+- Netjes gestyled en goed leesbaar
+
+Dat is fijn en leuk om te lezen en motiverend om weer verder te gaan waar ik was gebleven. Vervolgens hebben we in groepjes van vier en in duos feedback aan elkaar gegeven door door de website en learning log te doorlopen.
+
+Ik heb aan Sophia de volgende feedback gegeven:
+
+![alt text](img2/image-27.png)
+
+Van Sophia heb ik deze feedback ontvangen: 
+
+![alt text](img2/image-28.png)
+
+De feedback ga ik per categorie doorlopen.
+
+### Fluïde/adaptief
+Het scherm past zich goed aan voor elk formaat met afbeeldingen onder elkaar. Light en dark wisselen de donkeren en lichte kleuren goed, de bruikbaarheid blijft hierin hetzelfde. Het is waarschijnlijk beter om de tekst van de button wit te houden bij light-mode voor een beter contrast. Voor dikke vingers kunnen de cookie knoppen iets groter. Kopjes en paragraven passen zich aan de schermbreedte aan.
+
+### Interactief/dynamisch
+Focus state is duidelijk en past goed bij het ontwerp. Hover states zijn aanwezig, maar sommige kunnen misschien iets duidelijker. Er zijn geen animaties, dit zou bij cookies kunnen worden toegevoegd.
+
+### Toegankelijk
+De h2 kopjes kunnen misschien iets groter. Voor de cookie knoppen dezelfde grootte als de andere knoppen op de website. Alt-teksten zijn gebruikt, het woord 'foto' kan achterwegen gelaten worden, omdat afbeeldingen al worden aangekondigt met de screenreader. De screenreader werkt en leest alle links.
+
+### Volwassen
+Er wordt aangekondigd dat er data wordt opgeslagen met een duidelijke uitleg en waarschuwing. De pop-up is toegankelijk.
+
+### Expressief
+Er zijn geen gradients en animaties wel transitions in de navbar en cookie slider. Voor cookies kan misschien een bijpassende animatie. De lat-out is netjes en overzichtelijk. Er is een speciale font voor kopjes en een normale passende font voor tekst. Songtekst is expressief duidelijk.
+
+### Leuk/verassend
+Ik ben tevreden en heb veel geleerd over digitaal ontwerpen met kleuren en fonts. IIk zou dit op mijn CV kunnen zetten, zodat de lezer ook een deel van mij leert kennen. De fonts geven de website veel persoonlijkheid.
+
+Punten die ik hieruit dus kan meenemen zijn:
+- Buttons witte tekst behouden
+- Cookie buttons kunnen dezelfde grootte aannemen als de andere buttons, zodat deze ook op telefoon makkelijk klikbaar zijn.
+- Hover states misschien opvallender dan alleen underline.
+- Een animatie toevoegen voor cookies, zodat de website een animatie bevat.
+- H2 kopjes misschien iets groter.
+- Alt teksten aanpassen.
+- Misschien een gradient.
 
 
+### Learning log
+Toen hebben we met zijn vieren gekeken naar elkaars learning log met Floris en Tim erbij. Daar heb ik deze feedback ontvangen:
+
+![alt text](img2/image-29.png)
+
+Samenvattend: learning log is compleet, een paar foto's zijn niet goed gelinkt waardoor ze niet zichtbaar zijn. Dit heb ik gelijk opgelost. Retro 2 en 3 moeten nog worden gemaakt en erin worden geplaatst. Tekeningen kunnen groter. Het ontwerp proces is met datums laten zien. Schetsen zijn vastgesteld met omschrijving en de learning log is overzichtelijk door kopjes en datums. Gebruikte bronnen zijn vermeld.
+
+## Puntjes op de i
+Met de verzamelde feedback kan ik nu de laatste versie realiseren van mijn garden en learning log.
+
+### Light mode fix
+Momenteel zien de knoppen er bij light mode zo uit:
+![alt text](img2/image-30.png)
+De buttons in de cookie pop-up zijn heel goed zichtbaar en wit, dit ga ik ook toepassen op de start button.
+
+Nieuw:
+![alt text](img2/image-31.png)
+
+### Cookie buttons aanpassing
+Ik heb vervolgens de cookie knoppen dezelfde styling proberen te geven als de start knop, alleen pakt hij dit niet goed op en kon ik dit niet zien op te lossen. Daarom laat ik deze voor nu zo staan. De huidige knoppen staan qua grootte ook al wel prima in het huidige kader, dus is dit ook prima. Ook hebben deze buttons al een grotere font-weight, dit geeft ze meer de nadruk om als eerst te klikken voordat je verder gaat op de website.
+
+Knoppen worden nietmeer netjes uitgelijnd:
+![alt text](img2/image-32.png)
+'Weiger' verschijnd groter dan de andere, dus heb dit laten zitten:
+![alt text](img2/image-33.png)
+
+### Hover state
+Ik heb daarom nu de groene knoppen op de homepagina een duidelijkere hover gegeven wat ook als punt werd benoemd. Door de knop een tint lichter te maken, geef je nog meer de indruk dat deze drukbaar zijn. Dit heb ik ook toegepast bij 'lees meer...', de knoppen voor cookies en de andere onderwerppagina's.
+
+Voor:
+![alt text](img2/image-34.png)
+Na:
+![alt text](img2/image-35.png)
+
+### Animation
+Ik heb animation toegevoegd voor de cookie pop-up met een duur van 1 seconde met ease-out, zodat deze verschijnd. Hij begint 80px lager en komt dan omhoog.
+
+![alt text](img2/image-36.png)
+
+### Headers
+Persoonlijk vind ik voor de headers de grootte visueel voldoene. Ik wil er namelijk niet te grote koppen van maken maar het minimalistisch houden, door zijn aparte kleur zijn deze nogsteeds opvallend.
+
+![alt text](img2/image-37.png)
+
+### Alt-tekst
+Ik heb de alt-teksten gewijzigd:
+![alt text](img2/image-38.png)
+
+### Gradient
+Als laatst moest ik nog een gradient toevoegen en mijn songtekst in mijn garden. Dit heb ik gedaan in de footer, door lichtgrijs van boven naar beneden uit de laten komen. Dit geeft een interessant en subtiel effect. Door de gradient lijkt mijn footer nu ook daadwerkelijk de onderkant van mijn website. Op de startpagina staat nu ook mijn songtekst opdracht.
+
+![alt text](img2/image-39.png)
+![alt text](img2/image-40.png)
+![alt text](img2/image-41.png)
+
+## Retro's
+Vandaag heb ik de gemiste retro van sprint 2 en de laatste van de huidige sprint 3. 
+
+Sprint 2:
+![alt text](img2/image-42.png)
+
+![alt text](img2/image-43.png)
+
+Metafoor:
+![alt text](img2/image-44.png)
+Voor deze sprint heb ik als metafoor een batterij gebruikt. Mijn energie ging namelijk best omlaag. Door de omstandigheden en ziekte wat ik dus ook had besproken. Uiteindelijk heb ik me energie dus wel weer moeten zien op te laden en ging dit beetje bij beetje beter.
+
+Sprint 3:
+![alt text](img2/image-45.png)
+
+![alt text](img2/image-46.png)
+
+Metafoor:
+![alt text](img2/image-47.png)
+Als metafoor voor dit blok heb ik de blije spook.
+
+Van alle blokken die ik op deze opleiding bij CMD heb gevolgd was ik bij dit blok bijna het minst zichtbaar en vind ik ook jammer, vandaar de spook.
+
+Van tech heb ik namelijk al een beetje ervaring van mijn vorige opleiding waar ik was gestopt, dus was benieuwd en nieuwsgierig hoe dat met elkaar te maken zou hebben.
+
+Ik had hier wel mijn redenen voor dat ik minder zichtbaar was, want ben lange tijd ziek geweest, had een keelontsteking en zat thuis opgescheept met de verbouwing van mijn slaapkamer. Ik heb hierdoor geen vaste werkplek gehad, omdat deze dus leegstaat.
+
+Daarnaast nam werk en privé ook veel tijd in en moest ik dit zien weten te combineren. Achterstanden die ik opliep moest ik hierdoor inhalen en deed ik liever thuis.
+
+Uiteindelijk is alles wel goed gekomen en was ik weer aanwezig op school om mijn werk te laten zien en staan we nu hier. Ik ben heel tevreden met het eindresultaat van mijn garden en ben blij dat alles erin is gekomen wat ik wilde!
